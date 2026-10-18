@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Status: Planning</strong> · <a href="./LICENSE">MIT License</a>
+  <strong>Status: Planning</strong> · <a href="https://nativescript-preact.rafaelaugusto.dev">Documentation</a> · <a href="./LICENSE">MIT License</a>
 </p>
 
 ## About
@@ -18,9 +18,15 @@ NativeScript Preact is an independent community project exploring a Preact integ
 
 ## Project status
 
-This repository currently contains documentation, branding, and repository configuration only. Implementation has not started, and this project has no package or release available to install yet.
+This repository currently contains the documentation website, branding, and repository configuration. Framework implementation has not started, and this project has no package or release available to install yet.
 
 The API, architecture, and tooling are still to be explored. The items below describe the intended direction, not available features.
+
+## Documentation
+
+Read the [project documentation](https://nativescript-preact.rafaelaugusto.dev) for the introduction, design goals, current status, and roadmap.
+
+The website source lives in [`docs`](./docs). To work on it locally, see the [contribution guide](./CONTRIBUTING.md).
 
 ## Intended direction
 
