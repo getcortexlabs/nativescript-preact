@@ -39,6 +39,10 @@ The website source lives in [`docs`](./docs). To work on it locally, see the [co
 
 Ideas, use cases, and documentation improvements are welcome. Start with the [contribution guide](./CONTRIBUTING.md) or [open an issue](https://github.com/rafaelaugustos/nativescript-preact/issues) to join the discussion.
 
+## Supporters
+
+Supported by [Cortex Labs](https://getcortexlabs.com/).
+
 ## License
 
 [MIT](./LICENSE) © 2026 Rafael Augusto.

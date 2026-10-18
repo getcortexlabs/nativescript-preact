@@ -67,7 +67,7 @@ export default defineConfig({
     },
     footer: {
       message: `Released under the <a href="${repo}/blob/main/LICENSE">MIT License</a>.`,
-      copyright: 'Maintained by <a href="https://github.com/rafaelaugustos">Rafael Augusto</a>.',
+      copyright: 'Maintained by <a href="https://github.com/rafaelaugustos">Rafael Augusto</a>.<br>Supported by <a href="https://getcortexlabs.com/">Cortex Labs</a>.',
     },
   },
 })

@@ -37,3 +37,7 @@ If either technology is new to you, the official documentation is a useful start
 - [NativeScript](https://docs.nativescript.org/)
 
 This repository is maintained by [Rafael Augusto](https://github.com/rafaelaugustos) as an independent project.
+
+## Supporters
+
+Supported by [Cortex Labs](https://getcortexlabs.com/).
