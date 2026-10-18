@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output and caches
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Test output
+coverage/
+.nyc_output/
+
+# NativeScript and native build output
+platforms/
+.nsbuildinfo
+.gradle/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.apk
+*.aab
+*.ipa
+*.dSYM/
+
+# Logs
+logs/
+*.log
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+
+# Local editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
