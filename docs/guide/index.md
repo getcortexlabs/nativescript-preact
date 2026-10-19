@@ -2,10 +2,10 @@
 
 NativeScript Preact is an independent community project exploring how to build native iOS and Android apps with Preact and NativeScript.
 
-The goal is to use Preact components, JSX, hooks, and context to describe interfaces made from native UI components. NativeScript would provide the platform runtime and access to native views.
+The first prototype uses Preact components, JSX, and state to describe interfaces made from NativeScript UI components. NativeScript provides the platform runtime and native views. The app interface does not use a WebView.
 
-::: info Planning stage
-Framework implementation has not started. This site documents the project's direction and open questions. There is no package from this project to install yet.
+::: info Experimental prototype
+A native counter demo and four typed components are available in the repository. There is no published package yet. Start with the [prototype guide](/guide/prototype).
 :::
 
 ## Why this project?
@@ -21,19 +21,19 @@ The aim is a focused integration that can be maintained independently, with a cl
 - **Useful types.** Make native element properties and events discoverable through TypeScript and JSX.
 - **A practical app workflow.** Work toward navigation, lifecycle handling, and tooling after a small rendering prototype is validated.
 
-These are goals, not a list of supported features. The [design goals](/project/design) explain the questions that need to be answered first.
+The [prototype guide](/guide/prototype) lists the supported components and limitations. The [design goals](/project/design) explain the architecture and remaining questions.
 
 ## What you can do today
 
-Read the [project status](/guide/status) to see what exists, follow the [roadmap](/project/roadmap), or [share a use case](/project/contributing).
+Run the [counter demo](/guide/prototype), read the [project status](/guide/status), follow the [roadmap](/project/roadmap), or [share a use case](/project/contributing).
 
-There is no installation guide or API reference yet. Those sections will be added alongside an implementation that can be tried and tested.
+The demo is intended for local evaluation. A production package and app template are still ahead.
 
 ## Related projects
 
 If either technology is new to you, the official documentation is a useful starting point:
 
-- [Preact](https://preactjs.com/guide/v10/getting-started/)
+- [Preact](https://preactjs.com/)
 - [NativeScript](https://docs.nativescript.org/)
 
 This repository is maintained by [Rafael Augusto](https://github.com/rafaelaugustos) as an independent project.

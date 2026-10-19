@@ -4,7 +4,7 @@
       <div class="hero-copy">
         <a class="project-status" href="/guide/status">
           <span class="status-dot" aria-hidden="true"></span>
-          In the making
+          Experimental prototype
           <span aria-hidden="true">↗</span>
         </a>
         <p class="eyebrow">NATIVESCRIPT + PREACT</p>
@@ -14,7 +14,7 @@
           Exploring Preact for native iOS and Android apps, powered by NativeScript.
         </p>
         <div class="hero-actions">
-          <a class="primary-link" href="/guide/">Explore the project <span aria-hidden="true">→</span></a>
+          <a class="primary-link" href="/guide/prototype">Try the prototype <span aria-hidden="true">→</span></a>
           <a class="secondary-link" href="https://github.com/rafaelaugustos/nativescript-preact">
             View on GitHub <span aria-hidden="true">↗</span>
           </a>
@@ -45,7 +45,7 @@
       <div class="section-heading">
         <p class="eyebrow">THE IDEA</p>
         <h2 id="idea-title">From components to native views.</h2>
-        <p>The direction we're exploring for the integration.</p>
+        <p>A small adapter connects Preact to real native controls.</p>
       </div>
       <ol class="native-path">
         <li>
@@ -63,7 +63,7 @@
           <div><h3>iOS + Android</h3><p>A home on both platforms</p></div>
         </li>
       </ol>
-      <p class="idea-note">The renderer and public API are still to be designed. <a href="/project/design">Read the design goals <span aria-hidden="true">↗</span></a></p>
+      <p class="idea-note">The first renderer is here. The API is experimental. <a href="/project/design">Read the design goals <span aria-hidden="true">↗</span></a></p>
     </section>
 
     <section class="explore-section" aria-labelledby="explore-title">
@@ -88,12 +88,12 @@
       <aside class="progress-panel" aria-labelledby="progress-title">
         <div class="progress-heading">
           <h2 id="progress-title">Where things stand</h2>
-          <span class="planning-label">Planning</span>
+          <span class="planning-label">Prototype</span>
         </div>
-        <p>The first step is a clear foundation. Framework implementation hasn't started yet.</p>
+        <p>Four native components and a counter demo. State, tap events, and conditional mounting with Preact.</p>
         <ol class="milestone-list">
           <li class="milestone-ready"><span aria-hidden="true">✓</span><div><strong>Project foundation</strong><small>Repository, branding, and documentation</small></div></li>
-          <li><span aria-hidden="true">2</span><div><strong>Rendering prototype</strong><small>The next area to investigate</small></div></li>
+          <li class="milestone-ready"><span aria-hidden="true">✓</span><div><strong>Rendering prototype</strong><small>A native counter you can run locally</small></div></li>
           <li><span aria-hidden="true">3</span><div><strong>Components and app flows</strong><small>Planned after the rendering foundation</small></div></li>
         </ol>
         <a class="roadmap-link" href="/project/roadmap">Follow the roadmap <span aria-hidden="true">→</span></a>

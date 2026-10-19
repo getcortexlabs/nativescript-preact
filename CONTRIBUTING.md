@@ -2,7 +2,7 @@
 
 Thanks for your interest in NativeScript Preact.
 
-The project is in the planning stage. This repository contains the documentation website, branding, and repository configuration. There is no framework implementation or NativeScript app setup yet.
+The project has a small experimental renderer and a native counter demo. The API is still evolving.
 
 ## Ways to help
 
@@ -10,7 +10,25 @@ The project is in the planning stage. This repository contains the documentation
 - Discuss technical approaches and tradeoffs in issues.
 - Improve the documentation or report anything unclear.
 
-Before starting implementation work, open an issue to discuss the scope and direction with the maintainer.
+For substantial additions, open an issue to discuss the scope and direction with the maintainer.
+
+## Renderer and demo
+
+Use Node.js 22 and npm. From the repository root:
+
+```sh
+npm ci
+npm test
+npm run build
+cd demo
+npm ci
+npm run typecheck
+ns run android --no-hmr
+```
+
+Use `ns run ios --no-hmr` for iOS. Native builds require the [NativeScript development environment](https://docs.nativescript.org/setup/). Rebuild the root package after adapter changes, then restart the demo; renderer HMR is not implemented.
+
+Tests use the real Preact renderer with an in-memory host to check reconciliation, events, state, refs, and cleanup. Changes to native view behavior also need an emulator or device check. In the demo, verify increment, reset, unmount, and remount with fresh state.
 
 ## Documentation changes
 

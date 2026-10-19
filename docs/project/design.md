@@ -1,10 +1,10 @@
 # Design goals
 
-The architecture is still open. These goals provide a starting point for evaluating a rendering prototype and discussing tradeoffs.
+The prototype connects Preact's existing renderer to NativeScript through a small DOM-compatible adapter. Its public API remains experimental.
 
 ## Keep the UI native
 
-The intended output is a tree of NativeScript UI components. Layout, input, and interaction should use the native platform through NativeScript.
+The output is a tree of NativeScript UI components. Layout and interaction use the native platform through NativeScript. No browser or WebView is created.
 
 Native controls have their own properties, events, and lifecycle. The integration should make those differences clear rather than imply that an HTML element maps directly to a mobile control.
 
@@ -12,7 +12,7 @@ Native controls have their own properties, events, and lifecycle. The integratio
 
 The goal is to preserve familiar component composition, JSX, state, hooks, and context where they fit the native environment.
 
-Behavior needs to be verified in a prototype. In particular, effect cleanup, refs, updates, and unmounting must be checked against native view lifecycles before documenting support.
+Tests exercise state, context, effect cleanup, refs, updates, and unmounting with the real Preact renderer and an in-memory host. Native lifecycle coverage will need to grow as more components and app flows are added.
 
 ## Make the boundary explicit
 
@@ -24,13 +24,13 @@ The integration needs a clear division of responsibilities:
 | Integration | Translate rendering work into native views, properties, and events |
 | NativeScript | Native UI components, platform runtime, and native API access |
 
-This describes the direction, not an implemented architecture. The rendering strategy has not been selected.
+The adapter gives Preact nodes with operations such as `createElementNS`, `insertBefore`, and `remove`. Those operations create and update NativeScript views. An `ownerDocument` on each root keeps the adapter local instead of installing a browser-like global document. This is a small rendering compatibility layer, not a full DOM implementation.
 
 ## Start with a small surface
 
 A few elements and a basic interaction are enough to investigate the first rendering path. Adding a large catalog before that path is understood would make correctness harder to assess.
 
-The first prototype should answer:
+The prototype focuses on:
 
 - How are native views created, inserted, reordered, and removed?
 - How do property changes and event handlers reach a view?
@@ -42,7 +42,7 @@ The first prototype should answer:
 
 Typed JSX should help developers discover native element properties and event payloads. It should also expose platform differences when they matter.
 
-The exact element names, prop types, and extension API remain undecided.
+The initial typed components are `Page`, `StackLayout`, `Label`, and `Button`. Native view access uses a `nativeRef` callback. A public custom element registration API has not been added.
 
 ## Let evidence shape the tooling
 

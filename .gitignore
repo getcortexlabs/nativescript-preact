@@ -16,6 +16,7 @@ coverage/
 # NativeScript and native build output
 platforms/
 .nsbuildinfo
+demo/hooks/before-checkForChanges/nativescript-core.mjs
 .gradle/
 DerivedData/
 xcuserdata/

@@ -1,6 +1,6 @@
 # Contributing
 
-The project is at the beginning. Use cases, technical discussion, and clear documentation are the most useful contributions right now.
+The project has a small experimental renderer. Trying the demo on devices, reporting problems, and improving tests and documentation are useful contributions right now.
 
 ## Share a use case
 
@@ -10,9 +10,15 @@ Concrete examples help shape the scope. A short description of a screen or navig
 
 ## Discuss implementation ideas
 
-Before starting framework implementation, open an issue to discuss the scope and direction with the maintainer.
+Before starting substantial additions, open an issue to discuss the scope and direction with the maintainer.
 
-For a technical proposal, explain the problem, the approach you want to explore, and how you would check it on a device. The rendering strategy and public API are still undecided.
+For a technical proposal, explain the problem, the approach you want to explore, and how you would check it on a device. The public API is still experimental.
+
+## Work on the renderer
+
+Follow the [prototype guide](/guide/prototype) to run the native demo. At the repository root, run `npm ci`, `npm test`, and `npm run build`. Inside `demo`, run `npm ci` and `npm run typecheck` before running on a device or emulator.
+
+Rebuild the root package after adapter changes. Verify increment, reset, unmount, and remount in the demo. Unit tests exercise the real Preact renderer with an in-memory host; native view behavior also needs native testing.
 
 ## Improve the documentation
 
@@ -33,7 +39,7 @@ npm run build
 npm run preview
 ```
 
-These commands run the documentation website. There is no NativeScript app or framework development setup yet.
+These commands run the documentation website. The native app has its own setup in `demo`.
 
 ## Before opening a pull request
 

@@ -10,11 +10,11 @@ The repository, MIT license, branding, contribution guide, and initial documenta
 
 ## 2. Rendering prototype
 
-**Status: next to investigate.**
+**Status: experimental implementation available.**
 
-Explore the boundary between Preact rendering and NativeScript views. Keep the first example small enough to understand and validate.
+The first adapter and counter demo connect Preact to native views. See [Try the prototype](/guide/prototype) for the local setup and limits.
 
-The milestone should demonstrate:
+The implementation covers:
 
 - Creating and displaying a native view.
 - Updating a property after a state change.
@@ -26,7 +26,7 @@ Validate the basic flow on iOS and Android before expanding the surface.
 
 ## 3. Components and types
 
-**Status: planned.**
+**Status: started with four components.**
 
 Build on the selected rendering approach with a useful set of native elements and TypeScript definitions. Verify hooks, context, refs, and component lifecycle behavior.
 
@@ -44,7 +44,7 @@ Explore navigation, pages, modals, and their relationship with native and compon
 
 Investigate project templates, bundling, debugging, and hot reload. A developer should eventually be able to create a project, run it on a device, and make changes with a documented workflow.
 
-No bundler or hot reload integration has been selected yet.
+The local demo uses NativeScript's webpack tooling. Dedicated HMR support and a distributable app template remain to be designed.
 
 ## 6. First release
 

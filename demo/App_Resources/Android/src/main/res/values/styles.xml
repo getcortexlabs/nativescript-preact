@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#7441d7</item>
+    <item name="colorPrimaryDark">#f7f6fc</item>
+    <item name="colorAccent">#7441d7</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:statusBarColor">#f7f6fc</item>
+    <item name="android:navigationBarColor">#f7f6fc</item>
+    <item name="android:windowLightNavigationBar">true</item>
+    <item name="android:windowBackground">#f7f6fc</item>
+  </style>
+  <style name="AppTheme" parent="AppThemeBase" />
+  <style name="NativeScriptToolbarStyleBase" parent="Widget.AppCompat.Toolbar" />
+  <style name="NativeScriptToolbarStyle" parent="NativeScriptToolbarStyleBase" />
+</resources>
