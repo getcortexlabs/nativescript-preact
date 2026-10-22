@@ -10,7 +10,6 @@ export default defineConfig({
   title: 'NativeScript Preact',
   description,
   cleanUrls: true,
-  lastUpdated: true,
   appearance: true,
   sitemap: { hostname: site },
   head: [
