@@ -40,21 +40,20 @@ Describe proposed capabilities as plans until they are implemented and verified.
 
 ## Run the documentation locally
 
-Use Node.js 22 and npm. The website dependencies are kept inside `docs`.
+Use Node.js 22 and npm. The website source lives in `docs` and its dependencies are installed from the repository root.
 
 ```sh
-cd docs
 npm ci
-npm run dev
+npm run docs:dev
 ```
 
 Before submitting changes, check the production build:
 
 ```sh
-npm run build
-npm run preview
+npm run docs:build
+npm run docs:preview
 ```
 
 Check navigation, search, links, and both color themes. For layout changes, include a narrow screen in your review.
 
-GitHub Actions builds documentation pull requests for validation. Changes to the docs on `main` are published to [nativescript-preact.rafaelaugusto.dev](https://nativescript-preact.rafaelaugusto.dev).
+Changes to the docs on `main` are published to [nativescript-preact.rafaelaugusto.dev](https://nativescript-preact.rafaelaugusto.dev).
