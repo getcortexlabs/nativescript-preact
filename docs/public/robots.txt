@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nativescript-preact.rafaelaugusto.dev/sitemap.xml
+Sitemap: https://nativescript-preact.getcortexlabs.com/sitemap.xml
