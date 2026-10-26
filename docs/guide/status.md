@@ -37,6 +37,6 @@ That work will help determine the architecture before the project expands into n
 
 ## Following progress
 
-The [repository](https://github.com/rafaelaugustos/nativescript-preact) is the source of truth for implementation work. Use [issues](https://github.com/rafaelaugustos/nativescript-preact/issues) to discuss requirements and open questions.
+The [repository](https://github.com/getcortexlabs/nativescript-preact) is the source of truth for implementation work. Use [issues](https://github.com/getcortexlabs/nativescript-preact/issues) to discuss requirements and open questions.
 
 The prototype is pinned to Preact 11.0.1. Compatibility with other Preact versions needs testing before changing that version.

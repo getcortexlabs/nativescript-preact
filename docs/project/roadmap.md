@@ -52,4 +52,4 @@ The local demo uses NativeScript's webpack tooling. Dedicated HMR support and a 
 
 Prepare an initial release once there is a usable and tested foundation. It should include installation instructions, a runnable example, supported versions, and a clear account of known limitations.
 
-There is no release date yet. If a specific use case matters to you, [share it in an issue](https://github.com/rafaelaugustos/nativescript-preact/issues).
+There is no release date yet. If a specific use case matters to you, [share it in an issue](https://github.com/getcortexlabs/nativescript-preact/issues).

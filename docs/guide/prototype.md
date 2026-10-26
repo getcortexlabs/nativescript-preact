@@ -11,7 +11,7 @@ There is no published package. Run the demo from a local checkout. The component
 Install Node.js 22, npm, the NativeScript CLI, and the [native platform tools](https://docs.nativescript.org/setup/). Android needs its SDK and a device or emulator. iOS requires macOS, Xcode, and a device or simulator.
 
 ```sh
-git clone https://github.com/rafaelaugustos/nativescript-preact.git
+git clone https://github.com/getcortexlabs/nativescript-preact.git
 cd nativescript-preact
 npm ci
 npm run build

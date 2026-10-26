@@ -15,7 +15,7 @@
         </p>
         <div class="hero-actions">
           <a class="primary-link" href="/guide/prototype">Try the prototype <span aria-hidden="true">→</span></a>
-          <a class="secondary-link" href="https://github.com/rafaelaugustos/nativescript-preact">
+          <a class="secondary-link" href="https://github.com/getcortexlabs/nativescript-preact">
             View on GitHub <span aria-hidden="true">↗</span>
           </a>
         </div>

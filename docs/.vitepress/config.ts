@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-const site = 'https://nativescript-preact.rafaelaugusto.dev'
-const repo = 'https://github.com/rafaelaugustos/nativescript-preact'
+const site = 'https://nativescript-preact.getcortexlabs.com'
+const repo = 'https://github.com/getcortexlabs/nativescript-preact'
+const socialImage = `${site}/nativescript-preact-social.jpg`
+const socialImageAlt =
+  'nativescript-preact. Build native apps with Preact. JSX, hooks, native UI, no WebViews, with the P logo among phone screens.'
 const description =
   'An independent project exploring Preact for native iOS and Android apps with NativeScript. Read the project goals, status, and roadmap.'
 
@@ -17,8 +20,14 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#7041d9' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'NativeScript Preact' }],
-    ['meta', { property: 'og:image', content: `${site}/logo.png` }],
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { property: 'og:image', content: socialImage }],
+    ['meta', { property: 'og:image:type', content: 'image/jpeg' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:alt', content: socialImageAlt }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: socialImage }],
+    ['meta', { name: 'twitter:image:alt', content: socialImageAlt }],
   ],
   transformHead({ pageData }) {
     const path = pageData.relativePath

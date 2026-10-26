@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Status: Experimental prototype</strong> · <a href="https://nativescript-preact.rafaelaugusto.dev">Documentation</a> · <a href="./LICENSE">MIT License</a>
+  <strong>Status: Experimental prototype</strong> · <a href="https://nativescript-preact.getcortexlabs.com">Documentation</a> · <a href="./LICENSE">MIT License</a>
 </p>
 
 ## About
@@ -27,7 +27,7 @@ This is an experiment, not a production release. There is no published package y
 Use Node.js 22, npm, the NativeScript CLI, and a configured [native development environment](https://docs.nativescript.org/setup/). iOS requires macOS and Xcode.
 
 ```sh
-git clone https://github.com/rafaelaugustos/nativescript-preact.git
+git clone https://github.com/getcortexlabs/nativescript-preact.git
 cd nativescript-preact
 npm ci
 npm run build
@@ -58,11 +58,11 @@ function App() {
 run(<App />);
 ```
 
-See the [prototype guide](https://nativescript-preact.rafaelaugusto.dev/guide/prototype) for supported properties, events, and limitations.
+See the [prototype guide](https://nativescript-preact.getcortexlabs.com/guide/prototype) for supported properties, events, and limitations.
 
 ## Documentation
 
-Read the [project documentation](https://nativescript-preact.rafaelaugusto.dev) for the introduction, design goals, current status, and roadmap.
+Read the [project documentation](https://nativescript-preact.getcortexlabs.com) for the introduction, design goals, current status, and roadmap.
 
 The website source lives in [`docs`](./docs). To work on it locally, see the [contribution guide](./CONTRIBUTING.md).
 
@@ -74,7 +74,7 @@ The website source lives in [`docs`](./docs). To work on it locally, see the [co
 
 ## Get involved
 
-Ideas, use cases, and documentation improvements are welcome. Start with the [contribution guide](./CONTRIBUTING.md) or [open an issue](https://github.com/rafaelaugustos/nativescript-preact/issues) to join the discussion.
+Ideas, use cases, and documentation improvements are welcome. Start with the [contribution guide](./CONTRIBUTING.md) or [open an issue](https://github.com/getcortexlabs/nativescript-preact/issues) to join the discussion.
 
 ## Supporters
 

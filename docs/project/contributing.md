@@ -4,7 +4,7 @@ The project has a small experimental renderer. Trying the demo on devices, repor
 
 ## Share a use case
 
-[Open an issue](https://github.com/rafaelaugustos/nativescript-preact/issues) describing what you would like to build. Useful details include the target platforms, native components involved, and the interaction you need.
+[Open an issue](https://github.com/getcortexlabs/nativescript-preact/issues) describing what you would like to build. Useful details include the target platforms, native components involved, and the interaction you need.
 
 Concrete examples help shape the scope. A short description of a screen or navigation flow is enough to start a discussion.
 
@@ -53,8 +53,8 @@ You can use the edit link on each page to find its source on GitHub.
 
 ## Publishing
 
-Documentation changes pushed to `main` are built by GitHub Actions and published to [nativescript-preact.rafaelaugusto.dev](https://nativescript-preact.rafaelaugusto.dev). Pull requests build the site for validation without publishing it.
+Documentation changes pushed to `main` are published to [nativescript-preact.getcortexlabs.com](https://nativescript-preact.getcortexlabs.com).
 
 ## License
 
-The project uses the [MIT license](https://github.com/rafaelaugustos/nativescript-preact/blob/main/LICENSE).
+The project uses the [MIT license](https://github.com/getcortexlabs/nativescript-preact/blob/main/LICENSE).
